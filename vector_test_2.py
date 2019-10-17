@@ -1,4 +1,4 @@
-from Vector import Vector
+from vector import Vector
 from input_components import components
 
 # the purpose of this program is to test the class set and get methods

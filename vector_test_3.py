@@ -1,4 +1,4 @@
-from Vector import Vector
+from vector import Vector
 from input_components import components
 
 def main():

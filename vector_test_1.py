@@ -1,4 +1,4 @@
-import Vector
+from vector import Vector
 
 def components():
 	a = []
@@ -20,10 +20,10 @@ def main():
 	x1, y1, z1 = components()
 	x2, y2, z2 = components()
 
-	u = Vector.Vector(x1, y1, z1)
+	u = Vector(x1, y1, z1)
 	print("u: {}".format(u))
 
-	v = Vector.Vector(x2, y2, z2)
+	v = Vector(x2, y2, z2)
 	print("v: {}".format(v))
 
 	print("|u|: {}".format(u.magnitude()))
